@@ -1,0 +1,247 @@
+# Profile section
+profile:
+  first_name: Darren
+  last_name: Ramsook
+  picture: static/img/darren.gif # Local picture
+  contact:
+    address_one: 🏠 Dublin, Ireland
+    address_two: 🏠 San Fernando, Trinidad & Tobago
+    phone: 📞 (353) 0830291516
+  email: darrenramsook@outlook.com
+  description: >
+    Hi! My name is Darren Ramsook & I’m a PhD Candidate at Trinity College Dublin (under the Sigmedia Group), working on a combination of Video Codecs and Machine Learning. I have a with a keen interest in image/video and audio signal processing. This interest in Audio/Image processing is mainly due to the arts having a special place in my heart & also because I’m an avid musician. 
+    I have my MSc. Data Science & BSc. Electrical & Computer Engineering from the University of the West Indies. I combine my love for signal processing, software engineering and data science to help systems better analyze the world around us.
+
+# Social section
+social:
+  website: darrenr.co.tt
+  github: https://github.com/DarrenR96/
+  twitter: https://twitter.com/DarrenR_96
+  linkedin: https://www.linkedin.com/in/darren-ramsook/
+  facebook:
+
+# Experience section
+experience:
+  item0:
+    position: Adjunct Research Scientist
+    company: TTLAB
+    from: December 2018
+    to: Present
+    description:
+      desc1: Research into abstractive Textual Summarization for Instant Messages on devices with limited screen space (eg. smartwatches).
+      desc2: Created both a Transformer Neural Network and a Greedy N-gram token based optimization approach to solve this problem.
+      desc3: Performed qualitative tests on the improvement in both the reading and understanding time of the summarized versions of the problem.
+    link: http://lab.tt
+  item1:
+    position: Data Scientist Intern
+    company: Telecommunications Services of Trinidad & Tobago
+    from: November 2019
+    to: August 2020
+    description:
+      desc1: Formulation of a single figure of metric for evaluating real time network performance and customer experience for 2G (GSM), 3G (UMTS) and 4G (LTE) Mobile Networks. This required indepth end-to-end data science skills such as - domain upskill, data processing and cleaning, mathematical formulation and end-to-end deployment.
+      desc2: Evaluating Customer Feedback over Social Media in clustered geographic areas autonomously using sentiment analysis.
+      desc3: Weekly workshops on Programming, Mathematics, and the entire Data Science Project pipeline (ETL, Model Creation & Testing, Deployment)
+  item2:
+    position: Associate Professional - Research
+    company: Department of Electrical & Computer Engineering, University of the West Indies
+    from: December 2018
+    to: September 2019
+    description:
+      desc1: Research and design/development of classification and regression trees (CART) Hybrid Intrusion Detection System in Python that performs classification based on user activity and geolocation metadata with an accuracy of 94.5%(Jaccard Similarlity).
+      desc2: Conducted Network Threat Analysis for educational domains utilizing by mimicking conventional web access points (HTTP, SSH, FTP) and an Industrial Control System(ICS).
+      desc3: Research and development in the creation of a real time audio equalization system through the use of image and acoustic feedback of a given environment in collaboration with Indigisounds Inc.
+      desc4: Assisted with the deliverance of main project for the Introduction To Programming Course (ECNG1009).
+  item3:
+    position: Associate Professional - Software
+    company: Caribbean Industrial Research Institute
+    from: September 2018
+    to: November 2018
+    description:
+      desc1: Worked within the Data Analytics team in the Trinidad Microsoft Innovation Center.
+      desc2: Created an automated print media system that replaced internal paper-based process for approval of company graphics.
+      desc3: Installed and integrated data acquisition sensors into an existing solution for refrigerant systems in a major retail company.
+  item4:
+    position: Systems Engineer Intern
+    company: Caribbean Entertainment Technologies Ltd.
+    from: May 2018
+    to: June 2018
+    description:
+      desc1: Worked with Government level clients to design an automated audio/visual system for use in Judicial & Banking Environments.
+      desc2: Oversaw & completed system implementation of two designed systems in an efficient and on-time manner.
+      desc3: Designed,Programmed and Deployed, in Python, an Interactive Historical Cash Register System for use in the Central Bank of Trinidad & Tobago.
+
+# Education section
+education:
+  item1:
+    institution: Trinity College Dublin
+    program: PhD Electronic & Electrical Engineering
+    description: Research into optimizing video codec structures using Machine Learning and Optimization techniques.
+    from: September 2020
+    to: Continuing
+  item2:
+    institution: University of the West Indies
+    program: MSc. Data Science (Completed, still to be awarded degree)
+    description: Completed Master's degree in Data Science with research project focusing on the area of Natural Language Processing. Created a method to abstractively summarize long messages to shorter versions using emojis. Example-"I know you're in class, but can you buy eggs on the way home" -> "buy 🥚 🏠"
+    from: August 2018
+    to: July 2020
+  item3:
+    institution: University of the West Indies
+    program: BSc. Electrical & Computer Engineering
+    description: Specialized in Computer Systems. Final research project based on automatic audio equalization based on real-time image and acoustic feedback of the environment.
+    from: August 2015
+    to: July 2018
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - Python
+  - C++
+  - MATLAB
+  - Lua
+  - Tensorflow
+  - scikit-learn
+  - pandas
+  - bokeh
+  - dash/plotly
+  - SQL/NoSQL
+  - flask
+
+extra_skills:
+  - Image/Video and Audio Signal Analysis
+  - Machine Learning and A.I. based predictions
+  - Deep Neural Networks
+  - Data Visualization and Web Development
+  - Profieicency in many Python Packages – numpy, scipy, flask, matplotlib, Tensorflow, etc.
+  - Strong Analytical/Mathematical Skills in Algebra, Statistics and Probability
+
+# Projects section
+projects:
+  item1:
+    title: Instant Message Summarization with Emoji Unicode Characterset Support
+    subtitle: Abstractive Susmmarization of Instant Messages
+    description: Research into two models for summarizing an instant message, through the use of text and the Emoji Unicode Characterset, for applications where screen space is limited (eg smartwatches). The first proposed model utilizes a Greedy N-gram token replacement method, while the second proposed model utilizes a Transformer network. The Transformer network was trained on a set of 532 manually labelled instant messages and 92554 automatically labelled dialogue sentences. Initial results showed the Greedy N-gram token replacement method produced higher quality results and this method was evluated using human participants. It was found that there is an increase in average time taken to read and interpret the summarized messages when compared to the unsummarized messages.
+    link: null
+    img: nlpemoji.png
+    tags:
+      [
+        Summarization,
+        Abstractive Summarization,
+        Extractive Summarization,
+        Transformer,
+      ]
+  item2:
+    title: Realtime Network Performance and Customer Experience
+    subtitle: Mathematical Framework done for TSTT
+    description: Developed and implemented a framework for determination of a single Figure of Merit (FoM) that can be used for high level monitoring while at the same time providing sufficiently valuable low level indicators to assist with the isolation and detection of problems. This was illustrated using data from a real cellular network.
+    img: intFoM.png
+    link: null
+    tags:
+      [
+        Figure of Merit,
+        Performance Monitor,
+        Data Analytics,
+        Key Performance Indicator,
+        Telecommunications Infrastructure,
+      ]
+  item3:
+    title: Web Server Instrusion Detection and Avoidance
+    subtitle: Trained A.I. Based System for Web Server Instrusion Detection and Avoidance
+    description: This program utilizes the combined access log format of apache web servers to extract certain key features of actions and classifies users in one of three possible groups (Malicious, Unknown & Safe). This system allows for a headless operation once deployed. The system automatically performs pre-processing, classification and populates a list of Internet Protocol addresses whose access to the web server is prohibited. This system was made open source for both public use and development. This trained model resulted in an accuracy score of 94.5% on the test set.
+    link: https://github.com/DarrenR96/AI-Apache-Server-Intrusion-Detection-and-Avoidance/
+    img: overall.png
+    tags:
+      [
+        Machine Learning,
+        Classification & Regression Trees (CART),
+        Big Data,
+        SKLearn,
+        Python,
+        Software Development,
+      ]
+  item4:
+    title: ID3 Split Calculator
+    subtitle: Decision Tree Split Calculator
+    description: A decision tree learning calculator for the Iterative Dichotomiser 3 (ID3) algorithm. By utilizing the ID3 Algorithm, the best feature to split on is decided. This program requires to additional libraries outside of the default libraries included with Python (math, csv). Therefore this needs to extra set-up configuration. Tested and working on Python 3.7.
+    link: https://github.com/DarrenR96/ID3-Split-Calculator
+    img: id3.png
+    tags: [Python, Optimization, Decision Tree, ID3]
+  item5:
+    title: Social Media Impression Calculator
+    subtitle: Optimal Impression Calculator for Multi-Stage Advertisement Campaigns on Social Media
+    description: This calculator was built based on the assumption that within a given Social Network, friends of a given person has an effect on the probability of that person clicking an advertisement. This calculator evaluates a scenario where advertisements are split up between two stages, with the second stage being affected by what has occured in the first stage. For more information about this check out this paper - On the Problem of Multi-Staged Impression Allocation in Online Social Networks, done by Inzamam Rahaman and Patrick Hosein.
+    link: https://github.com/DarrenR96/Optimal-Impression-Calculator
+    github:
+    img: calc.png
+    tags:
+      [
+        Optimization,
+        Operations Research,
+        Big Data Algorithms,
+        Probablistic Modelling,
+        Python,
+        Tkinter,
+      ]
+  item6:
+    title: Cash Register System
+    subtitle: Interactive Historic Cash Register System for the Central Bank Mueseum of Trinidad & Tobago
+    description: This cash register was designed, created and deployed for use in the Central Bank Mueseum of Trinidad & Tobago. It allows the user to scan items located in the mueseum. The user would then be presented with information about the scan as well as the prices across various time periods. It was created with the main user base being younger children.
+    link: https://www.caribbeanav.com/portfolio-item/central-bank-money-museum-port-of-spain-trinidad-tobago/?fbclid=IwAR28gpHXZr60pjPkk1LU9qaKz3UW6rNSmJrjE_3JwWtH5Tr1QmZt0hMMQxM
+    img: cashregister.png
+    tags:
+      [
+        Software Engineering,
+        Python,
+        UI/UX Design,
+        Interactive,
+        Electrical System,
+        Raspberry Pi,
+      ]
+  item7:
+    title: eLearn Caribbean - Online Learning Platform for the Caribbean
+    subtitle: Distance Education
+    description: eLearn Caribbean is an online platform dedicated to providing free education to the Caribbean region. In 2018, 11000 students were awarded no passes in the very critical CXC examination.
+    link: https://newsday.co.tt/2018/09/09/schol-winner-gives-back/
+    img: Elearn.png
+    tags: [Moodle, AWS, Management, Non-Profit]
+  item8:
+    title: Realtime Auto Equalizaiton System Based on Acoustic & Visual Feedback
+    subtitle: Audio EQ System
+    description: This system was designed and developed to counteract acoustic disintegration of sound waves as they propagate from a speaker to an audience. This was done through the use of Image Analysis to detect the audience & Audio Analysis to examine audio features.
+    img: autoEQ.png
+    tags: [Digital Signal Processing, Audio Analysis, Image Analysis, MATLAB]
+  item9:
+    title: MicroController Based Pulse & Glucose Monitor
+    subtitle: Medical Device
+    description: The created system was able to detect the heart-rate & glucose level of an individual, store the data, and give out an alarm if the heart rate drops below a certain threshold. A keypad & LCD display was used as means of system interaction.
+    link: https://sites.google.com/site/ecng30061718/wiki/group-f-mazerunners
+    img: mbdUC.png
+    tags:
+      [Microcontroller, PIC, C, Sensor Design, Circuit Design, Testing/Analysis]
+
+# Certifications and awards section
+certifications:
+  item0:
+    title: Fundamentals of Accelerated Computing with (CUDA C/C++, Python)
+    dategranted: August 2019
+    grantingbody: Nvidia Deep Learning Institute
+  item1:
+    title: Deep Learning Specialization
+    dategranted: July 2019
+    grantingbody: Coursera
+  item2:
+    title: Machine Learning
+    dategranted: October 2018
+    grantingbody: Coursera
+  item3:
+    title: Cybersecurity Fundamentals Certificate (CSX)
+    dategranted: August 2017
+    grantingbody: ISACA
+
+awards:
+  - Awarded a full Scholarship through the D-Real program to pursue PhD Electronic & Electrical Engineering at Trinity College Dublin.
+  - Created Notebooks for the Nvidia backed RAPIDS Open Source Library.
+  - Scholarship in the field of Mathematics due to academic performance in the Caribbean Advanced Proficiency Examination (Diploma) in the subjects Pure Mathematics, Applied Mathematics, Physics & I.T.; granted by the Government of Trinidad & Tobago.
+  - Placed 8th in the Caribbean Region for the I.T. Advanced Level (CAPE) Examinations (2015).
+  - Trinidad & Tobago National Music Festival 1st place two-time winner.
+  - Fully funded scholarship for obtaining the Cybersecurity Fundamentals (CSX) Certificate from the Government of Trinidad & Tobago.
